@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+#speciality {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  width: 80vw;
+  margin: 80px auto;
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center;
+}
+.specialist_list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 22px;
+    width: 50vw;
+    height: 25vh;
+    font-size: 12px;
+    overflow: scroll;
+}
+.specialist_list img{
+    width: 100px;
+    transition: transform 0.3s ease-in-out;
+
+    /* transition: all 10s ease-in ease-out; */
+
+}
+.special-one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding-top: 20px; */
+    /* background-color: black; */
+    /* height: 25vh; */
+    flex-direction: column;
+}
+.special-one h1{
+    font-weight: 500;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.special-one p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 300;
+    padding: 0 0 10px 0;
+}
+.specialist_list p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+}
+.specialist_list img:hover{
+    transform: scale(1.08);
+    /* background-color: blueviolet; */
+    /* transition: all 10s ease-in ease-out; */
+}

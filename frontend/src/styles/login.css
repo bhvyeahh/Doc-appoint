@@ -1,0 +1,73 @@
+.login-box{
+    padding: 15px 8px;
+    width: 25vw;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 25px;
+    flex-direction: column;
+    height: 60vh;
+    margin: 14vh auto 28vh auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgb(214, 209, 209);
+    border: 1px solid rgb(222, 214, 214);
+}
+.login-detail{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+}
+#login-task{
+    font-size: 26px;
+    font-weight: 500;
+    margin: 20px 20px 8px 20px;
+    color: rgb(84, 86, 87);
+}
+#login-task2{
+    margin: 0 22px;
+    font-size: 14px;
+}
+.detail{
+    margin: 0 22px;
+    font-size: 14px;
+    color: rgb(111, 109, 109);
+    margin-top: 12px;
+    display: flex;
+    flex-direction: column;
+}
+.login-cont{
+margin-top: 6px;
+
+}
+.detail input{
+    padding: 8px;
+    border-radius: 6px;
+    border: 1px solid rgb(201, 199, 199);
+}
+.login-box button{
+    background-color: rgb(95, 111, 255);
+    color: white;
+    padding: 12px 90px;
+    border-radius: 10px;
+}
+/* Position the icon inside the password field */
+.password-container {
+    position: relative;
+    display: flex;
+    align-items: start;
+  }
+  
+  .password-container input {
+    padding-right: 100px; /* Space for the icon */
+  }
+  
+  .password-toggle-icon {
+    position: absolute;
+    right: 9px;
+    top: 32px;
+    cursor: pointer;
+    color: #555; /* You can change the color as needed */
+    font-size: 18px; /* Adjust icon size */
+  }
+  

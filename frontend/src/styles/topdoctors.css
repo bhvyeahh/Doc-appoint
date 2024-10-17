@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+ 
+.docbox{
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+.docboxcon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.docboxcon h1{
+    font-size: 30px;
+    font-weight: 500;
+} 
+.doc-container {
+    padding: 42px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  
+.cards{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 8px;
+    cursor: pointer;
+    /* padding: 42px; */
+    border: 1px solid rgba(165, 165, 228, 0.461);
+}
+.cards img{
+    height: 220px;
+    width: 220px;
+    background-color: rgb(234 239 255)
+}
+.online-dot {
+    width: 10px;          /* Size of the dot */
+    height: 10px;         /* Size of the dot */
+    background-color: #08f152;  /* Green color */
+    border-radius: 50%;   /* Makes the dot circular */
+    display: inline-block; /* Allows it to be placed inline with text */
+    border: 2px solid white; /* Optional: creates a white border around the dot */
+    position: relative;   /* You can position it over an image or text */
+}
+  
+.available{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    color: #0c9e3a;
+    gap: 6px;
+}
+.cardinfo{
+    display: flex;
+    padding: 2px 0;
+    width: 210px;
+    justify-content: start;
+    padding: 8px;
+    /* align-items: center; */
+    flex-direction: column;
+}
+#topdocname{
+    font-size: 19px;
+font-weight: 500;
+} 
+.docbox button{
+    background-color: rgb(234 239 255);
+    border-radius: 40px;
+    padding: 14px 45px;
+    color: rgb(25, 25, 25);
+}
+.cards {
+    transition: transform 0.3s ease-in-out; /* Smooth transition for both hover and unhover */
+}
+
+.cards:hover {
+    transform: scale(1.05); /* Increase size by 5% */
+}
+.docbox button:hover{
+    background-color: rgb(219, 227, 252);
+    /* background-color: black; */
+    /* color: black; */
+}

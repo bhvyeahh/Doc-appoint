@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+
+.banner {
+    width: 80vw;
+    /* font-family: "Outfit", sans-serif; */
+    font-optical-sizing: auto;
+    color: white;
+    font-weight: 400;
+    height: 50vh;
+    margin: auto;
+    margin-top: 10vh;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(95, 111, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    overflow: hidden;
+}
+.left-one{
+    width: 40vw;
+}
+.left-one h1 {
+    margin-bottom: 30px;
+    padding-left: 30px;
+    font-weight: 500;
+}
+.left-one button{
+    background-color: white;
+    color: rgb(95, 111, 255);
+    transition: transform 0.3s ease-in-out; /* Smooth transition for both hover and unhover */
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-left: 30px;
+}
+.right-one{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    transition: transform 0.3s ease-in-out; /* Smooth transition for both hover and unhover */
+
+    align-items: flex-start; /* Align items at the start to allow upper part visibility */
+    overflow: hidden; /* Ensure the image stays inside the container */
+}
+
+.banner-img {
+    height: 100%;              /* Full height of the banner */
+    width:80%;               
+    border-radius: 10px;       /* Optional: match the banner's border radius */
+    object-fit: cover;         /* Ensure the image fills the container */
+    margin-top: 120px;       
+    /* transform: translateY(-20px); */
+}
+button:hover {
+    transform: scale(1.04); /* Increase size by 5% */
+  }
+.right-one:hover{
+    transform: scale(1.02) ;
+}

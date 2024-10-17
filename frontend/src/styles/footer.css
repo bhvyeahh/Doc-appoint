@@ -1,0 +1,54 @@
+.footerbox{
+    width: 80vw;
+    margin: auto;
+    margin-top: 12vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* gap: 210px */
+    margin-bottom: 6vh;
+}
+.footer-text{
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    cursor: default;
+    align-items: start;
+    gap: 25px;
+    font-size: 14px;
+    font-weight: 300;
+
+}
+.footer-company{
+    width: 30vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    gap: 20px;
+    font-weight: 300;
+}
+
+.footer-company h1{
+    cursor: default;
+    font-weight: 500;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+.footer-company li{
+    padding: 4px 0;
+    cursor: pointer;
+    color: rgb(95, 92, 92);
+    /* cursor: default; */
+}
+
+.footer-company li:hover{
+    color: black;
+}
+.downfooter{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-bottom: 2vh;
+font-weight: 300;
+}

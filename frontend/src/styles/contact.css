@@ -1,0 +1,42 @@
+.contact-text{
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    /* font-weight: 300; */
+    align-items: center; 
+     margin: 12px auto;
+     padding: 18px;
+     font-size: 28px;
+}
+.contact-box{
+    width: 60vw;
+    gap: 20px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-left{
+    width: 25vw;
+}
+.contact-left img{
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+.contact-right{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    font-weight: 300;
+    gap: 16px;
+    flex-direction: column;
+}
+.contact-right button{
+    padding: 16px 20px; 
+    border: 1px solid black;
+}
+.contact-right button:hover{
+    background-color: black;
+    color: white;
+}
