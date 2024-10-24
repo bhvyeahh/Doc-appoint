@@ -14,7 +14,7 @@ const Login = () => {
 
   const onSubmitHandler = async (event) => {
     event.preventDefault();
-    // Additional submission logic here
+    // Additional submission logic her e
   };
 
   return (
@@ -26,14 +26,17 @@ const Login = () => {
             Please {state === 'Sign Up' ? 'Sign Up' : 'Login'} to book appointment
           </p>
           <div className="login-cont">
-            <div className="detail">
-              Full Name
-              <input
-                type="text"
-                onChange={(e) => setName(e.target.value)}
-                required
-              />
-            </div>
+          {
+            state === "Sign Up" && <div className="detail">
+            Full Name
+            <input
+              type="text"
+              onChange={(e) => setName(e.target.value)}
+              required
+            />
+          </div>
+
+          }
             <div className="detail">
               Email
               <input
@@ -63,6 +66,13 @@ const Login = () => {
           </div>
         </div>
           <button>{state === 'Sign Up' ? 'Create Account' : 'Login'}</button>
+          <div className="choose-link">
+          {
+            state === "Sign Up"
+            ? <p>Already have an account? <span id = 'login-link' onClick={()=>setState('Login')}>Login here</span></p> 
+            : <p>Create an new account? <span id = 'login-link' onClick={()=>setState('Sign Up')}>click here</span></p>
+          }
+          </div>
       </form>
     </>
   );

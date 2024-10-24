@@ -1,0 +1,68 @@
+.profile-cont{
+    width: 80vw;
+    margin: 6vh auto;
+}
+.flex{
+    display: flex;
+    gap: 40px;
+    margin-top: 2px;
+}
+#contact-info{
+    font-size: 15px;
+    font-weight: 600;
+}
+.profile-name{
+    margin-top: 18px;
+    font-size: 30px;
+    font-weight: 500;
+}
+#profile-heading{
+    margin-top: 12px;
+    font-size: 14px;
+    text-decoration: underline;
+    color: rgb(81, 82, 83);
+}
+.profile-contact{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+.headingcolor{
+    color: rgb(62, 61, 61);
+}
+.profile-contact input{
+    /* border: 1px solid black; */
+    padding: 2px;
+    background-color:rgb(240, 244, 252) ;
+}
+.email-data{
+    color: rgb(95, 167, 240);
+}
+.phone input{
+    margin-left: 12px;
+}
+.profile-information{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.profile-button button{
+    background-color: white;
+    border: 1px solid rgb(101, 101, 101);
+    color: rgb(71, 72, 72);
+    margin-top: 20px;
+    border-radius: 40px;
+    padding: 6px 40px;
+}
+.gender select{
+    font-size: 15px;
+}
+.profile-button button:hover{
+    background-color: rgb(95, 111, 255);
+    color: white;
+    border: none;
+}
+.hr-tag hr{
+    border-top: 1px solid rgb(201, 198, 198);
+    width: 40vw;
+}

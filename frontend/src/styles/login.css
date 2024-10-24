@@ -1,5 +1,5 @@
 .login-box{
-    padding: 15px 8px;
+    padding: 3px 8px;
     width: 25vw;
     display: flex;
     justify-content: start;
@@ -67,7 +67,13 @@ margin-top: 6px;
     right: 9px;
     top: 32px;
     cursor: pointer;
-    color: #555; /* You can change the color as needed */
+    color: #1268ca; /* You can change the color as needed */
     font-size: 18px; /* Adjust icon size */
   }
-  
+.choose-link{
+    font-size: 14px;
+}
+#login-link{
+    color: rgb(95, 111, 255);
+    cursor: pointer;
+}
